@@ -1,0 +1,33 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body text-center">
+            <h1 class="mb-3">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Qqc5u-ro5vliMEb-ax6smgAAAA&pid=Api&P=0&h=180" alt="icon" width="20%" />
+            </h1>
+            <h2>
+                Login
+            </h2>
+
+            <form action="/users/create-session" method="POST">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="Enter Password" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <p class="mt-4">
+                New User? <a href="/users/sign-up">Register</a>
+            </p>
+            <p class="mt-4"><a href="/users/auth/google"><img src="https://tse1.mm.bing.net/th?id=OIP.jyFm8SOzN9ylA06RmfOdEQHaE7&pid=Api&P=0&h=180" style="width:  80px; height: 25px;"></a>  </p>
+            <p class="mt-1">Sign-in with Google</p>
+       <hr>
+            <p>  |Forgot Password? <a href="/users/reset-password">Reset</a></p>
+          
+        </div>
+    </div>
+</div>
