@@ -8,7 +8,7 @@ require('dotenv').config();
 
 // tell passport to use a new strategy for google login
 passport.use(new googleStrategy({
-        clientID:process.env.CODEIAL_GOOGLE_CLIENT_ID,
+        clientID:'236027598562-2kc35qj1nb211vt5qsvmfa2n1mre3utj.apps.googleusercontent.com',
         clientSecret:process.env.CODEIAL_GOOGLE_CLIENT_SECRET, 
         callbackURL: process.env.CODEIAL_GOOGLE_CALLBACK_RURL
 
